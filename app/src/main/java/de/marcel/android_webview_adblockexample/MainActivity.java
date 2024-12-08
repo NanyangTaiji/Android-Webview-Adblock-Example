@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         view.setLayerType(View.LAYER_TYPE_HARDWARE, null);
         view.getSettings().setLayoutAlgorithm(WebSettings.LayoutAlgorithm.NARROW_COLUMNS);
         view.getSettings().setDomStorageEnabled(true);
-        view.getSettings().setAppCacheEnabled(true);
+    //    view.getSettings().setAppCacheEnabled(true);
         view.getSettings().setSavePassword(true);
         view.getSettings().setSaveFormData(true);
         view.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
